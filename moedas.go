@@ -170,7 +170,7 @@ func iniciarMoedaVermelha(jogo *Jogo, x, y int, mutex *sync.Mutex) {
 					jogo.StatusMsg = "Coletou moeda vermelha (-2)"
 				} else {
 					jogo.Pontos += 2
-					jogo.StatusMsg = "Coletou moeda vermelha (+2)"
+					jogo.StatusMsg = "Coletou moeda verde (+2)"
 				}
 				jogo.Mapa[y][x] = Vazio
 				interfaceDesenharJogo(jogo)
